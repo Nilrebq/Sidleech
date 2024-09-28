@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-from pyrogram import utils as pyroutils
-
-pyroutils.MIN_CHAT_ID = -999999999999
-pyroutils.MIN_CHANNEL_ID = -100999999999999
 from tzlocal import get_localzone
 from pytz import timezone
 from datetime import datetime
